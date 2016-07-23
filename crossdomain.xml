@@ -2,5 +2,6 @@
   <site-control permitted-cross-domain-policies="all"/>
   <allow-access-from domain="scratchx.org"/>
   <allow-access-from domain="tianjianyifu.github.io"/>
-  <allow-access-from domain="pos.infoman.com.cn"/>
+  <allow-access-from domain="*.infoman.com.cn"/>
+  <allow-http-request-headers-from domain="*.infoman.com.cn" headers="*"/>
 </cross-domain-policy>
